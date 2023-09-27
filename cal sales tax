@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+   double salesTotal = 100.00;
+   double salesTaxRate = 0.05;
+   double salesTax ;
+
+   salesTax = salesTotal * salesTaxRate;
+        double totalAmount = salesTotal + salesTax;
+        System.out.println("Total sales=" + salesTotal +   " salesTax=" + salesTax  + " Total amount=" + totalAmount );
+
+
+    }
+}
